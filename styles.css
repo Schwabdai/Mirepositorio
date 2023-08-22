@@ -4,6 +4,7 @@ body, ul {
   font-weight: bold;
   font-size: 20px;
   padding: 0;
+  background-color: antiquewhite;
 
 }
 main{ 
@@ -24,11 +25,7 @@ main{
     flex: 1;
     padding: 10px;
 }
-@media (max-width: 600px) {
-    .column {
-        flex: 100%;
-    }
-}
+
   .container-nav {
       display: flex;
       padding: 10px;
@@ -69,6 +66,7 @@ main{
   .nav-links {
     display: flex;
     align-items: center;
+    background-color: black;
   }
   
   
@@ -109,7 +107,11 @@ main{
     img {
       height: 200px;
     }
-
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
   @media (max-width: 768px) {
     .column {
       flex: 100%;
